@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "5C9C24E6-9FA6-49CE-8EB5-C86F4CECFADC"
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "1B93B9FF-7216-4E61-9155-278B1FFACCF9"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TestWikipedia/Network/Presenters/PlacesPresenter.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "21"
+            endingLineNumber = "21"
+            landmarkName = "getList(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "881A2F5A-F332-4F35-A46C-7A3CFC06E258"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TestWikipedia/Views/PlacesList/PlacesListViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "147"
+            endingLineNumber = "147"
+            landmarkName = "setupDataModel()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "881A2F5A-F332-4F35-A46C-7A3CFC06E258 - 6fe790d30609cf03"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (RealmSwift.RealmCollectionChange&lt;RealmSwift.Results&lt;TestWikipedia.PlaceObject&gt;&gt;) -&gt; () in TestWikipedia.PlacesListViewController.setupDataModel() -&gt; ()"
+                  moduleName = "TestWikipedia"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/casiocompa_dev_2/Developer/casiocompa/ABN%20AMRO/TestWikipedia/TestWikipedia/Views/PlacesList/PlacesListViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "148"
+                  endingLineNumber = "148"
+                  offsetFromSymbolStart = "1636">
+               </Location>
+               <Location
+                  uuid = "881A2F5A-F332-4F35-A46C-7A3CFC06E258 - ce17710f68b46ebe"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Swift.MainActor () -&gt; () in closure #1 (RealmSwift.RealmCollectionChange&lt;RealmSwift.Results&lt;TestWikipedia.PlaceObject&gt;&gt;) -&gt; () in TestWikipedia.PlacesListViewController.setupDataModel() -&gt; ()"
+                  moduleName = "TestWikipedia"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/casiocompa_dev_2/Developer/casiocompa/ABN%20AMRO/TestWikipedia/TestWikipedia/Views/PlacesList/PlacesListViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "147"
+                  endingLineNumber = "147"
+                  offsetFromSymbolStart = "32">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

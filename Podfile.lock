@@ -1,0 +1,40 @@
+PODS:
+  - Alamofire (5.6.4)
+  - Moya (15.0.0):
+    - Moya/Core (= 15.0.0)
+  - Moya/Core (15.0.0):
+    - Alamofire (~> 5.0)
+  - Realm (10.38.0):
+    - Realm/Headers (= 10.38.0)
+  - Realm/Headers (10.38.0)
+  - RealmSwift (10.38.0):
+    - Realm (= 10.38.0)
+  - TinyConstraints (4.0.2)
+  - Wormholy (1.6.6)
+
+DEPENDENCIES:
+  - Moya
+  - RealmSwift
+  - TinyConstraints
+  - Wormholy
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - Moya
+    - Realm
+    - RealmSwift
+    - TinyConstraints
+    - Wormholy
+
+SPEC CHECKSUMS:
+  Alamofire: 4e95d97098eacb88856099c4fc79b526a299e48c
+  Moya: 138f0573e53411fb3dc17016add0b748dfbd78ee
+  Realm: 5902885dd1d5e71b0b020830caab937ecdf5bf07
+  RealmSwift: 0fc037d6c32c7c4fc9362892380f380114ecdcf0
+  TinyConstraints: 7b7ccc0c485bb3bb47082138ff28bc33cd49897f
+  Wormholy: 09da0b876f9276031fd47383627cb75e194fc068
+
+PODFILE CHECKSUM: 124221a62ffb3ac317bab62964e7279f3992c3ed
+
+COCOAPODS: 1.12.0

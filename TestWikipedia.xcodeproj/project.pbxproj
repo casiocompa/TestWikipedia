@@ -7,23 +7,47 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		55CD618AE13BF43A760EB04A /* Pods_TestWikipedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 39A68E91E32D7B2EEAA31C4D /* Pods_TestWikipedia.framework */; };
 		F67F81292AEEFD5800A2024B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F67F81282AEEFD5800A2024B /* AppDelegate.swift */; };
-		F67F812B2AEEFD5800A2024B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F67F812A2AEEFD5800A2024B /* SceneDelegate.swift */; };
-		F67F812D2AEEFD5800A2024B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F67F812C2AEEFD5800A2024B /* ViewController.swift */; };
-		F67F81302AEEFD5800A2024B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F67F812E2AEEFD5800A2024B /* Main.storyboard */; };
 		F67F81322AEEFD5900A2024B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F67F81312AEEFD5900A2024B /* Assets.xcassets */; };
 		F67F81352AEEFD5900A2024B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F67F81332AEEFD5900A2024B /* LaunchScreen.storyboard */; };
+		F67F81462AEF11C100A2024B /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = F67F81452AEF11C100A2024B /* Coordinator.swift */; };
+		F67F814A2AEF149900A2024B /* PlacesListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F67F81492AEF149900A2024B /* PlacesListViewController.swift */; };
+		F67F81502AEF153A00A2024B /* PlacesListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F67F814F2AEF153A00A2024B /* PlacesListTableViewCell.swift */; };
+		F67F81542AF00CF300A2024B /* PlacesApiService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F67F81532AF00CF300A2024B /* PlacesApiService.swift */; };
+		F67F81572AF02D3B00A2024B /* APIConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = F67F81562AF02D3B00A2024B /* APIConstants.swift */; };
+		F67F815B2AF03D1B00A2024B /* RealmManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F67F815A2AF03D1B00A2024B /* RealmManager.swift */; };
+		F67F815D2AF0450F00A2024B /* CustomNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F67F815C2AF0450F00A2024B /* CustomNavigationController.swift */; };
+		F67F815F2AF0464300A2024B /* PlaceModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F67F815E2AF0464300A2024B /* PlaceModel.swift */; };
+		F67F81622AF0473000A2024B /* StringUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = F67F81612AF0473000A2024B /* StringUtils.swift */; };
+		F67F81642AF0496800A2024B /* NumberUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = F67F81632AF0496800A2024B /* NumberUtils.swift */; };
+		F67F81672AF0FD2900A2024B /* PlacesPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = F67F81662AF0FD2900A2024B /* PlacesPresenter.swift */; };
+		F68116B12AF1905800897015 /* ColorUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = F68116B02AF1905800897015 /* ColorUtils.swift */; };
+		F68116B32AF2994600897015 /* GenericDecoderManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F68116B22AF2994600897015 /* GenericDecoderManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		39A68E91E32D7B2EEAA31C4D /* Pods_TestWikipedia.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TestWikipedia.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		72002AAD66E2B028454F6C04 /* Pods-TestWikipedia.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestWikipedia.release.xcconfig"; path = "Target Support Files/Pods-TestWikipedia/Pods-TestWikipedia.release.xcconfig"; sourceTree = "<group>"; };
+		BB8E2B97DF87CF1EB2A165E2 /* Pods-TestWikipedia.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestWikipedia.debug.xcconfig"; path = "Target Support Files/Pods-TestWikipedia/Pods-TestWikipedia.debug.xcconfig"; sourceTree = "<group>"; };
 		F67F81252AEEFD5800A2024B /* TestWikipedia.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestWikipedia.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F67F81282AEEFD5800A2024B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		F67F812A2AEEFD5800A2024B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		F67F812C2AEEFD5800A2024B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		F67F812F2AEEFD5800A2024B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F67F81312AEEFD5900A2024B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F67F81342AEEFD5900A2024B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F67F81362AEEFD5900A2024B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F67F81452AEF11C100A2024B /* Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
+		F67F81492AEF149900A2024B /* PlacesListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlacesListViewController.swift; sourceTree = "<group>"; };
+		F67F814F2AEF153A00A2024B /* PlacesListTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlacesListTableViewCell.swift; sourceTree = "<group>"; };
+		F67F81532AF00CF300A2024B /* PlacesApiService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlacesApiService.swift; sourceTree = "<group>"; };
+		F67F81562AF02D3B00A2024B /* APIConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIConstants.swift; sourceTree = "<group>"; };
+		F67F815A2AF03D1B00A2024B /* RealmManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealmManager.swift; sourceTree = "<group>"; };
+		F67F815C2AF0450F00A2024B /* CustomNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomNavigationController.swift; sourceTree = "<group>"; };
+		F67F815E2AF0464300A2024B /* PlaceModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceModel.swift; sourceTree = "<group>"; };
+		F67F81612AF0473000A2024B /* StringUtils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringUtils.swift; sourceTree = "<group>"; };
+		F67F81632AF0496800A2024B /* NumberUtils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumberUtils.swift; sourceTree = "<group>"; };
+		F67F81662AF0FD2900A2024B /* PlacesPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlacesPresenter.swift; sourceTree = "<group>"; };
+		F68116B02AF1905800897015 /* ColorUtils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorUtils.swift; sourceTree = "<group>"; };
+		F68116B22AF2994600897015 /* GenericDecoderManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenericDecoderManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +55,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				55CD618AE13BF43A760EB04A /* Pods_TestWikipedia.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0E8D8F841D2F5CB0EC5EAA1B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BB8E2B97DF87CF1EB2A165E2 /* Pods-TestWikipedia.debug.xcconfig */,
+				72002AAD66E2B028454F6C04 /* Pods-TestWikipedia.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		D9D3459124ABA68E49B77242 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				39A68E91E32D7B2EEAA31C4D /* Pods_TestWikipedia.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		F67F811C2AEEFD5800A2024B = {
 			isa = PBXGroup;
 			children = (
 				F67F81272AEEFD5800A2024B /* TestWikipedia */,
 				F67F81262AEEFD5800A2024B /* Products */,
+				0E8D8F841D2F5CB0EC5EAA1B /* Pods */,
+				D9D3459124ABA68E49B77242 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +100,137 @@
 		F67F81272AEEFD5800A2024B /* TestWikipedia */ = {
 			isa = PBXGroup;
 			children = (
-				F67F81282AEEFD5800A2024B /* AppDelegate.swift */,
-				F67F812A2AEEFD5800A2024B /* SceneDelegate.swift */,
-				F67F812C2AEEFD5800A2024B /* ViewController.swift */,
-				F67F812E2AEEFD5800A2024B /* Main.storyboard */,
-				F67F81312AEEFD5900A2024B /* Assets.xcassets */,
-				F67F81332AEEFD5900A2024B /* LaunchScreen.storyboard */,
+				F67F81512AF00C8F00A2024B /* Network */,
+				F67F813C2AEF0FB900A2024B /* App */,
+				F67F813E2AEF106900A2024B /* Navigation */,
+				F67F813F2AEF107E00A2024B /* Managers */,
+				F67F81402AEF10A400A2024B /* Models */,
+				F67F81412AEF10BC00A2024B /* Utilities */,
+				F67F81422AEF10DA00A2024B /* Views */,
+				F67F81432AEF10FF00A2024B /* Sources */,
 				F67F81362AEEFD5900A2024B /* Info.plist */,
 			);
 			path = TestWikipedia;
+			sourceTree = "<group>";
+		};
+		F67F813C2AEF0FB900A2024B /* App */ = {
+			isa = PBXGroup;
+			children = (
+				F67F81282AEEFD5800A2024B /* AppDelegate.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		F67F813E2AEF106900A2024B /* Navigation */ = {
+			isa = PBXGroup;
+			children = (
+				F67F81452AEF11C100A2024B /* Coordinator.swift */,
+				F67F815C2AF0450F00A2024B /* CustomNavigationController.swift */,
+			);
+			path = Navigation;
+			sourceTree = "<group>";
+		};
+		F67F813F2AEF107E00A2024B /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				F67F815A2AF03D1B00A2024B /* RealmManager.swift */,
+				F68116B22AF2994600897015 /* GenericDecoderManager.swift */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		F67F81402AEF10A400A2024B /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				F67F815E2AF0464300A2024B /* PlaceModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		F67F81412AEF10BC00A2024B /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				F67F81602AF0471700A2024B /* Extensions */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		F67F81422AEF10DA00A2024B /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				F67F81332AEEFD5900A2024B /* LaunchScreen.storyboard */,
+				F67F81472AEF13EC00A2024B /* PlacesList */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		F67F81432AEF10FF00A2024B /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				F67F81312AEEFD5900A2024B /* Assets.xcassets */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		F67F81472AEF13EC00A2024B /* PlacesList */ = {
+			isa = PBXGroup;
+			children = (
+				F67F814D2AEF150600A2024B /* Table Cell */,
+				F67F81492AEF149900A2024B /* PlacesListViewController.swift */,
+			);
+			path = PlacesList;
+			sourceTree = "<group>";
+		};
+		F67F814D2AEF150600A2024B /* Table Cell */ = {
+			isa = PBXGroup;
+			children = (
+				F67F814F2AEF153A00A2024B /* PlacesListTableViewCell.swift */,
+			);
+			path = "Table Cell";
+			sourceTree = "<group>";
+		};
+		F67F81512AF00C8F00A2024B /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				F67F81652AF0FD0B00A2024B /* Presenters */,
+				F67F81522AF00CB100A2024B /* ApiService */,
+				F67F81552AF029C800A2024B /* General */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		F67F81522AF00CB100A2024B /* ApiService */ = {
+			isa = PBXGroup;
+			children = (
+				F67F81532AF00CF300A2024B /* PlacesApiService.swift */,
+			);
+			path = ApiService;
+			sourceTree = "<group>";
+		};
+		F67F81552AF029C800A2024B /* General */ = {
+			isa = PBXGroup;
+			children = (
+				F67F81562AF02D3B00A2024B /* APIConstants.swift */,
+			);
+			path = General;
+			sourceTree = "<group>";
+		};
+		F67F81602AF0471700A2024B /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				F67F81612AF0473000A2024B /* StringUtils.swift */,
+				F67F81632AF0496800A2024B /* NumberUtils.swift */,
+				F68116B02AF1905800897015 /* ColorUtils.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		F67F81652AF0FD0B00A2024B /* Presenters */ = {
+			isa = PBXGroup;
+			children = (
+				F67F81662AF0FD2900A2024B /* PlacesPresenter.swift */,
+			);
+			path = Presenters;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +240,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F67F81392AEEFD5900A2024B /* Build configuration list for PBXNativeTarget "TestWikipedia" */;
 			buildPhases = (
+				F2C3A380BC691B0DF35A4852 /* [CP] Check Pods Manifest.lock */,
 				F67F81212AEEFD5800A2024B /* Sources */,
 				F67F81222AEEFD5800A2024B /* Frameworks */,
 				F67F81232AEEFD5800A2024B /* Resources */,
+				D29215D9AB990205D92D3ED6 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -127,34 +295,78 @@
 			files = (
 				F67F81352AEEFD5900A2024B /* LaunchScreen.storyboard in Resources */,
 				F67F81322AEEFD5900A2024B /* Assets.xcassets in Resources */,
-				F67F81302AEEFD5800A2024B /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		D29215D9AB990205D92D3ED6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TestWikipedia/Pods-TestWikipedia-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TestWikipedia/Pods-TestWikipedia-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TestWikipedia/Pods-TestWikipedia-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F2C3A380BC691B0DF35A4852 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TestWikipedia-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		F67F81212AEEFD5800A2024B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F67F812D2AEEFD5800A2024B /* ViewController.swift in Sources */,
+				F67F81672AF0FD2900A2024B /* PlacesPresenter.swift in Sources */,
+				F68116B12AF1905800897015 /* ColorUtils.swift in Sources */,
+				F67F81622AF0473000A2024B /* StringUtils.swift in Sources */,
+				F67F81502AEF153A00A2024B /* PlacesListTableViewCell.swift in Sources */,
+				F67F81572AF02D3B00A2024B /* APIConstants.swift in Sources */,
 				F67F81292AEEFD5800A2024B /* AppDelegate.swift in Sources */,
-				F67F812B2AEEFD5800A2024B /* SceneDelegate.swift in Sources */,
+				F67F81542AF00CF300A2024B /* PlacesApiService.swift in Sources */,
+				F67F815B2AF03D1B00A2024B /* RealmManager.swift in Sources */,
+				F67F815D2AF0450F00A2024B /* CustomNavigationController.swift in Sources */,
+				F67F815F2AF0464300A2024B /* PlaceModel.swift in Sources */,
+				F68116B32AF2994600897015 /* GenericDecoderManager.swift in Sources */,
+				F67F814A2AEF149900A2024B /* PlacesListViewController.swift in Sources */,
+				F67F81642AF0496800A2024B /* NumberUtils.swift in Sources */,
+				F67F81462AEF11C100A2024B /* Coordinator.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		F67F812E2AEEFD5800A2024B /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				F67F812F2AEEFD5800A2024B /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		F67F81332AEEFD5900A2024B /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -218,7 +430,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
@@ -275,10 +487,11 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
 				VALIDATE_PRODUCT = YES;
@@ -287,19 +500,21 @@
 		};
 		F67F813A2AEEFD5900A2024B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BB8E2B97DF87CF1EB2A165E2 /* Pods-TestWikipedia.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = WYS4CR7DG7;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = TestWikipedia/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIMainStoryboardFile = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -307,37 +522,46 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = casiocompa.TestWikipedia;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		F67F813B2AEEFD5900A2024B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 72002AAD66E2B028454F6C04 /* Pods-TestWikipedia.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = WYS4CR7DG7;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = TestWikipedia/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIMainStoryboardFile = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
+				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = casiocompa.TestWikipedia;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
